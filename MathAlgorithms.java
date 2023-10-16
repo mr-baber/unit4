@@ -20,8 +20,13 @@ public class MathAlgorithms{
     
       public static void printDigits(int num) {
         // Your code goes here
-        
-        
+        int digit = 1;
+        while (num > 0){
+          int value = num % 10;
+          System.out.println(digit + "s place: " + value);
+          num /= 10;
+          digit *= 10;
+        }
       }
     
       /*
