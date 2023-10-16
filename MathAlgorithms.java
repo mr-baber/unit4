@@ -26,6 +26,7 @@ public class MathAlgorithms{
           System.out.println(digit + "s place: " + value);
           num /= 10;
           digit *= 10;
+          
         }
       }
     
