@@ -20,7 +20,12 @@ public class MathAlgorithms{
     
       public static void printDigits(int num) {
         // Your code goes here
-        
+        int place = 1;
+        while (num > 0){
+          System.out.println(place + "s place:" + num % 10);
+          num /= 10;
+          place *= 10;
+        }
       }
     
       /*
