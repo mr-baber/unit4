@@ -4,7 +4,7 @@ public class MathAlgorithms{
         // Use printDigits method to print the digits of Integer.MAX_VALUE
         printDigits(Integer.MAX_VALUE);
         // Use a loop and the isPrime method to print the first 100 primes.
-    
+
         // Use a loop and the isPerfect method to print out the only perfect
         // numbers that can be expresssed with an int variable.
     
@@ -35,7 +35,6 @@ public class MathAlgorithms{
        */
     
       public static int isPrime(int num, boolean printFactors) {
-        return 0;
       }
     
       /*
