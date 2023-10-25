@@ -35,6 +35,7 @@ public class MathAlgorithms{
        */
     
       public static int isPrime(int num, boolean printFactors) {
+        return 0;
       }
     
       /*
